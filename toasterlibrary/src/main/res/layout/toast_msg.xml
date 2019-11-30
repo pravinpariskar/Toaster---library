@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/linearLayout"
+              android:padding="10dp"
+              android:background="@drawable/toastbackground_border">
+
+        <TextView
+                android:id="@+id/toast_text"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Please check"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"/>
+        <ImageView
+                android:id="@+id/toast_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/toast_close"
+                android:layout_gravity="center"/>
+    </LinearLayout>
